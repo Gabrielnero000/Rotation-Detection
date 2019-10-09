@@ -15,6 +15,6 @@ The first step was create a reasonable model for the data and after some fine tu
 
 After that, the dataset was processed using the Keras tools for heavy data augmentation, which can be found on the `dataset.py` script.
 
-So the network was trained with the default Adam optimizer and with categorical crossentropy as loss function, achieving an validation error and accuracy of 0.1061 and a 95.9% respectively.
+So the network was trained with the default Adam optimizer and with categorical crossentropy as loss function, achieving an validation error and accuracy of 0.1061 and a 95.9% respectively after 40 epochs.
 
 Finally, the test was done by predicting the test images and using the prediction to correct the rotation of the images and generating an CSV with the prediction of every image.
